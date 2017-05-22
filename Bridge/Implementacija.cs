@@ -10,7 +10,7 @@ namespace Bridge
         {
             public void Pošalji(string tipPoruke)
             {
-                Console.WriteLine("Šaljem " + tipPoruke + " preko HT operatera");
+                Console.WriteLine("Šaljem " + tipPoruke + " preko HT operatera\n");
             }
         }
 
@@ -18,7 +18,7 @@ namespace Bridge
         {
             public void Pošalji(string tipPoruke)
             {
-                Console.WriteLine("Šaljem " + tipPoruke + " preko VIP operatera");
+                Console.WriteLine("Šaljem " + tipPoruke + " preko VIP operatera\n");
             }
         }
 
@@ -26,7 +26,7 @@ namespace Bridge
         {
             public void Pošalji(string tipPoruke)
             {
-                Console.WriteLine("Šaljem " + tipPoruke + " preko Tele2 operatera");
+                Console.WriteLine("Šaljem " + tipPoruke + " preko Tele2 operatera\n");
             }
         }
     }
